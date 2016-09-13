@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+
+<div style="margin-bottom: 10px;"><button>Start Animation</button></div>
+
+<div id="box" style="background:red;height:100px;width:100px;position:absolute;"></div>
+<div id2="ad" style="background:green;height:100px;width:100px;position:absolute">my Ad</div>
+
+
+
+<script>
+$(document).ready(function(){
+	$("button").click(function(){
+    		var divBox = $("div#box");// what div#box do??
+            var div = $("div");
+           
+   	        //divBox.animate({height: '300px', opacity: '0.4'}, "slow");
+    		//divBox.animate({width: '300px', opacity: '0.8'}, "slow");
+    		//divBox.animate({height: '100px', opacity: '0.4'}, "slow");
+    		//divBox.animate({width: '100px', opacity: '0.8'}, "slow");
+			
+			div.animate({height: '300px', opacity: '0.4'}, "slow");
+    		div.animate({width: '300px', opacity: '0.8'}, "slow");
+			div.animate({fontSize: '3em'}, "slow");
+			div.animate({height: '100px', opacity: '0.4'}, "slow");
+			div.animate({fontSize: '1em'}, "slow"); // not sure what 3em does? i guess it changes size of font
+    		div.animate({width: '100px', opacity: '0.8'}, "slow");
+			
+            //div.animate({height: '300px'}, "slow");
+            //div.animate({height: '100px'}, "slow");
+			
+			
+			
+		
+  	});
+});
+</script>
+
+</body>
+</html>
