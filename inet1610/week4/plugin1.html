@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>plugin1</title>
+</head>
+
+<body>
+<p>Page content goes here.</p>
+     <!-- content end -->
+
+
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script>
+ 	$(document).ready(function() {
+		
+	  //$("p").hide();
+      //$("p").delay(1000);
+      //$("p").fadeIn(2000);
+	  //$("p").slideDown(("slow"); // wont work 
+	   
+	 $("p").css("color", "red").slideUp(4000).slideDown(4000);//slides work
+	 
+	 
+	  // $("p").hide.delay(1000).fadeIn(2000);	wont work idk
+
+	})
+     </script>
+    
+		
+</body>
+</html>

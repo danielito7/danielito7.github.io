@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>Page content goes here.</p>
+<p1> click show</p1>
+<p2> click hide</p2>
+     <!-- content end -->
+
+
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script>
+ 	$(document).ready(function(){
+		$("p1").hide();
+		$("p2").hide();
+		$("#hide").click(function(){
+		if($("p").hide());
+		$("p2").hide();
+		$("p1").show();
+		});
+		$("#show").click(function(){
+		if($("p").show());
+		$("p1").hide();
+		$("p2").show();
+		});
+
+	})
+     </script>
+
+<button id="hide">hide</button>
+<button id="show">show</button>
+
+
+</body>
+</html>
