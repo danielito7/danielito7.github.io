@@ -3,8 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+<link rel = "stylesheet" href="jquery.bxslider.css">
 </head>
 
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script  src ="jquery.bxslider.min.js"></script>
+<script  src ="jquery.bxslider.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+        $('.slider').bxSlider();
+		});
+        
+	
+	</script>
+
+<style>
+	.container{
+		
+		width: 960px;
+		margin: 0 auto;
+	}
+	.slider{
+		margin: 0;
+	}
+</style>
+
 <body>
+	<div class= "container">
+    
+		<ul class="slider">
+  			<li><img src="images/inkscape-900w.png" title="inkscape logo" /></li> <!---transparency  good for logos!--->
+  			<li><img src="images/facebook-900w.png" title="facebook logo" /></li><!---transparency  good for logos!--->
+  			<li><img src="images/jello-900.png" title="jello" /></li><!---transparency  good for logos!--->
+            <li><img src="images/sheridan-900w.jpg" title="sheridan" /></li><!---jpg best for photos!--->
+            <li><img src="images/student-life-900w.jpg" title="students" /></li><!---jpg best for photos!--->
+            <li><img src="images/watermellon-900w.png" title="watermelon logo" /></li><!---transparency  good for logos!--->
+            
+		</ul>
+	</div>
+
 </body>
 </html>
