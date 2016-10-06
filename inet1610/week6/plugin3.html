@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>ChangeFontPlugin</title>
+
+
+</head>
+<style>
+        body {
+            font-family: sans-serif;
+            font-size: 3em;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+
+
+<body>
+<h1 class="ChangeColor">Lo que mas quiero en esto mundo es ver mi famila feliz y con salud</h1>
+
+<!--<script src="//code.jquery.com/jquery-2.2.3.min.js"> dosnt work with this-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script src="letterEffect.js"></script>
+
+<script>
+        $(" .ChangeColor ").letterEffect({
+                   "splitChar": ' ',
+                 "effectParam": "color",
+                "effectValues": [ "#196518", "#8c1b1b", "orange", "#1b5979", "purple" ],
+            "ambientAnimation": true,
+             "ambientstrength": .4,
+                        "time": 1,
+                        "drift": 0.25,
+              "hoverAnimation": true,
+                   "hoverTime": .3
+        });
+    </script>
+
+</body>
+</html>
