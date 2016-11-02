@@ -2,7 +2,7 @@
 /* CSS Document */
 
  
-  pA{   /* change to pA{} to p{} so it works in index */
+  #A{   
 	
 	background-color: #c2f670;
  	width: 200px;
@@ -10,14 +10,14 @@
 	outline-style: double;
   }
   
-  pB{   /* change to pB{} to p{} so it works in index */
+  #B{  
 	background-color: #c2f670;
  	width: 200px;
  	height: 200px;
 	box-shadow: 10px 10px 5px #888888;/* not sure if this was what it was supose to be*/
 	  
   }
-  pC{   /* change to pC{} to p{} so it works in index */
+  #C{  
 	  
     background-color: #c2f670;
  	width: 200px;
@@ -27,7 +27,7 @@
 	padding-right: 2em;
 	padding-bottom:2em;
   }
-  pD{  /* change to pD{} to p{} so it works in index */
+  #D{  
 	  background-color: #c2f670;
  	  width: 200px;
       height: 200px;
@@ -43,7 +43,7 @@
 	border-top:red 4px solid;
 	border-left:red 4px  solid;
   }
-  pE{ /* change to pE{} to p{} so it works in index */
+  #E{ 
 	background-color: #c2f670;
  	width: 200px;
  	height: 200px;
@@ -59,7 +59,7 @@
 	margin-right:2em;
 	margin-bottom:2em;
   }
-  pF{  /* change to pF{} to p{} so it works in index */
+  #F{  
 	background-color: #c2f670;
  	width: 200px;
  	height: 200px;
@@ -81,7 +81,7 @@
 	padding-bottom:1em;
 	  
   }
-  pG{ /* change to pG{} to p{} so it works in index */
+  #G{ 
 	background-color: #c2f670;
  	width: 200px;
  	height: 200px;
