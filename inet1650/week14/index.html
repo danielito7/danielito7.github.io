@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+body{
+  background: #000;
+} 
+p{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 4em;
+  position:absolute;
+  left:30%;
+  top:50%;
+  overflow: hidden;
+  width:1000px;
+  animation: changeSize 6s steps(60, end);  
+  
+}
+
+p:nth-child(2){
+   color:lime; 
+   padding-left:45px;
+}
+
+p:nth-child(3){
+   color:lime; 
+  
+   padding-left:90px;   
+}
+p:nth-child(4){
+   color:lime; 
+   
+   padding-left:135px;   
+}
+
+p:nth-child(5){
+   color:lime; 
+   position:absolute; 
+   
+  
+   padding-left:180px; 
+   animation: spin 6s steps(80, end);
+   transform-origin:50% 50%;
+   width: 415px;
+   height: 70px;
+   
+}
+p:nth-child(6){
+
+	color:lime;
+	left:482px;
+	animation: move 6s steps(60, end);
+	
+}
+
+@keyframes changeSize{
+  from 0%{width: 0;}
+  50%{width: 0;font-size:large;color:red}
+  100%{ width: 100%;} 
+} 
+@keyframes spin{
+from {transform:rotate(0deg);}
+       50%{color:red;}
+    to {transform:rotate(360deg);}
+}
+@keyframes move{
+    from {transform: translateY(0px);}
+     50%{transform: translateY(-200px); color:red;}
+	to {transform: translateY(0px);}
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+
+
+</style>
+<title>Real Madrid</title>
+</head>
+
+<body>
+<p>R</p>
+<p>E</p>
+<p>A</p>
+<p>L</p>
+<p>MADRID</p>
+<p>*</p>
+
+</body>
+</html>
